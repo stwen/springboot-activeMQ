@@ -1,0 +1,2 @@
+# springboot-activeMQ
+springBoot整合ActiveMQ实例：queue和topic模式

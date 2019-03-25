@@ -1,0 +1,16 @@
+
+server:
+  port: 8080
+  servlet:
+    context-path: /producer
+spring:
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://127.0.0.1:61616
+    pool:
+      enabled: true
+      max-connections: 10
+
+queueName: queue
+topicName: topic
